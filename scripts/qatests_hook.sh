@@ -18,7 +18,7 @@ fi
 
 body='{
  "request": {
- "message": "this is an api request",
+ "message": "QA Testing TARGET_ENV: '${QA_BRANCH}'",
  "config": {
    "env": {
      "TARGET_ENV": "'${QA_BRANCH}'"
